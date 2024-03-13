@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,500;1,400;1,500&display=swap"
+            rel="stylesheet"
+        />
+        <title>Thanh toán</title>
+    </head>
+    <body>
+        <section class="checkout">
+            <div class="container">
+                <div class="checkout-title">
+                    <h1>Check Out</h1>
+                </div>
+                <div class="checkout-process">
+                    <div class="checkout-item" style="color: #38cb89">
+                        <div class="item" style="background-color: #38cb89">
+                            <span><i class="bx bx-check"></i></span>
+                        </div>
+                        <h2>Shopping cart</h2>
+                    </div>
+                    <div class="checkout-item" style="color: black">
+                        <div class="item" style="background-color: black"><span>2</span></div>
+                        <h2>Checkout details</h2>
+                    </div>
+                    <div class="checkout-item" style="color: #6c7275">
+                        <div class="item" style="background-color: #6c7275"><span>3</span></div>
+                        <h2>Order complete</h2>
+                    </div>
+                </div>
+                <div class="checkout-cart">
+                    <div class="checkout-cart__form">
+                        <div class="info bd">
+                            <h2>Contact Infomation</h2>
+                            <div class="name">
+                                <label for="">First name</label>
+                                <input type="text" placeholder="First name" />
+                                <label for="">LAST NAME</label>
+                                <input type="text" placeholder="Last name" />
+                            </div>
+                            <div class="phone">
+                                <label for="">Phone Number</label>
+                                <input type="text" placeholder="Phone number" />
+                            </div>
+                            <div class="email">
+                                <label for="">Email</label>
+                                <input type="text" placeholder="Your email" />
+                            </div>
+                        </div>
+
+                        <div class="address bd">
+                            <h2>Shipping Address</h2>
+                            <label for="">Street Address *</label>
+                            <input type="text" placeholder="Stress Address" />
+                            <label for="">Country *</label>
+                            <input type="text" placeholder="Country" />
+                            <label for="">Town / City *</label>
+                            <input type="text" placeholder="Town / City" />
+                            <div class="checkbox" style="">
+                                <input type="checkbox" name="" id="" />
+                                <p>Use a different billing address (optional)</p>
+                            </div>
+                        </div>
+
+                        <div class="payment bd">
+                            <h2>Payment method</h2>
+                            <div class="element">
+                                <input type="radio" />
+                                <label for="">Thanh toán bằng thẻ</label>
+                            </div>
+
+                            <div class="element">
+                                <input type="radio" />
+                                <label for="">Thanh khi nhận hàng</label>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button>Place Order</button>
+                        </div>
+                    </div>
+                    <div class="checkout-cart__order bd">
+                        <div class="title">
+                            <h2>Order summary</h2>
+                        </div>
+
+                        <div class="list-product__order">
+                            <img src="./images/product.png" alt="" />
+                            <div class="info">
+                                <h3>Tray Table</h3>
+                                <p>Color: Black</p>
+                                <div class="product-quantity unset">
+                                    <button class="decrease-quantity">-</button>
+                                    <input type="number" id="quantity" name="quantity" min="1" value="1" />
+                                    <button class="increase-quantity">+</button>
+                                </div>
+                            </div>
+                            <p>$38.00</p>
+                        </div>
+
+                        <div class="list-product__order">
+                            <img src="./images/product.png" alt="" />
+                            <div class="info">
+                                <h3>Tray Table</h3>
+                                <p>Color: Black</p>
+                                <div class="product-quantity unset">
+                                    <button class="decrease-quantity">-</button>
+                                    <input type="number" id="quantity" name="quantity" min="1" value="1" />
+                                    <button class="increase-quantity">+</button>
+                                </div>
+                            </div>
+                            <p>$38.00</p>
+                        </div>
+
+                        <div class="list-product__order">
+                            <img src="./images/product.png" alt="" />
+                            <div class="info">
+                                <h3>Tray Table</h3>
+                                <p>Color: Black</p>
+                                <div class="product-quantity unset">
+                                    <button class="decrease-quantity">-</button>
+                                    <input type="number" id="quantity" name="quantity" min="1" value="1" />
+                                    <button class="increase-quantity">+</button>
+                                </div>
+                            </div>
+                            <p>$38.00</p>
+                        </div>
+
+                        <div class="coupon">
+                            <input type="text" placeholder="Input" />
+                            <button>Apply</button>
+                        </div>
+
+                        <div class="content">
+                            <div class="discout-code df m24">
+                                <p><i class="bx bx-purchase-tag-alt"></i>JenkateMW</p>
+                                <p>-$25.00 [Remove]</p>
+                            </div>
+                            <div class="shiping df m24">
+                                <p>Shipping</p>
+                                <p>Free</p>
+                            </div>
+                            <div class="subtotal df m24">
+                                <p>Subtotal</p>
+                                <p>$99.00</p>
+                            </div>
+                            <div class="total df m24">
+                                <p>Total</p>
+                                <p>$234.00</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
+
+<script src="./script.js"></script>
