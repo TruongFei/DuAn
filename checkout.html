@@ -90,47 +90,63 @@
                             <h2>Order summary</h2>
                         </div>
 
-                        <div class="list-product__order">
-                            <img src="./images/product.png" alt="" />
-                            <div class="info">
-                                <h3>Tray Table</h3>
-                                <p>Color: Black</p>
-                                <div class="product-quantity unset">
-                                    <button class="decrease-quantity">-</button>
-                                    <input type="number" id="quantity" name="quantity" min="1" value="1" />
-                                    <button class="increase-quantity">+</button>
-                                </div>
-                            </div>
-                            <p>$38.00</p>
-                        </div>
+                        <table>
+                            <!-- <caption>Bảng thông tin sinh viên</caption> -->
+                            <!-- <thead>
+                                <tr>
+                                    <th>Sản phẩm</th>
+                                    <th>Số lượng</th>
+                                    <th>Giá</th>
+                                    <th>Tổng</th>
+                                </tr>
+                            </thead> -->
+                            <tbody>
+                                <tr style="display: flex; align-items: center; gap: 80px">
+                                    <td class="sanpham">
+                                        <img src="./images/product.png" alt="" />
+                                        <div class="df-column">
+                                            <h4>Ghế sắt</h4>
+                                            <p>Màu: Đen</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <label for=""></label>
+                                        <input type="number" min="0" class="soluong" />
+                                    </td>
+                                    <td>100.00VNĐ</td>
+                                </tr>
 
-                        <div class="list-product__order">
-                            <img src="./images/product.png" alt="" />
-                            <div class="info">
-                                <h3>Tray Table</h3>
-                                <p>Color: Black</p>
-                                <div class="product-quantity unset">
-                                    <button class="decrease-quantity">-</button>
-                                    <input type="number" id="quantity" name="quantity" min="1" value="1" />
-                                    <button class="increase-quantity">+</button>
-                                </div>
-                            </div>
-                            <p>$38.00</p>
-                        </div>
+                                <tr style="display: flex; align-items: center; gap: 80px">
+                                    <td class="sanpham">
+                                        <img src="./images/product.png" alt="" />
+                                        <div class="df-column">
+                                            <h4>Ghế sắt</h4>
+                                            <p>Màu: Đen</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <label for=""></label>
+                                        <input type="number" min="0" class="soluong" />
+                                    </td>
+                                    <td>100.00VNĐ</td>
+                                </tr>
 
-                        <div class="list-product__order">
-                            <img src="./images/product.png" alt="" />
-                            <div class="info">
-                                <h3>Tray Table</h3>
-                                <p>Color: Black</p>
-                                <div class="product-quantity unset">
-                                    <button class="decrease-quantity">-</button>
-                                    <input type="number" id="quantity" name="quantity" min="1" value="1" />
-                                    <button class="increase-quantity">+</button>
-                                </div>
-                            </div>
-                            <p>$38.00</p>
-                        </div>
+                                <tr style="display: flex; align-items: center; gap: 80px">
+                                    <td class="sanpham">
+                                        <img src="./images/product.png" alt="" />
+                                        <div class="df-column">
+                                            <h4>Ghế sắt</h4>
+                                            <p>Màu: Đen</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <label for=""></label>
+                                        <input type="number" min="0" class="soluong" />
+                                    </td>
+                                    <td>100.00VNĐ</td>
+                                </tr>
+                            </tbody>
+                        </table>
 
                         <div class="coupon">
                             <input type="text" placeholder="Input" />
